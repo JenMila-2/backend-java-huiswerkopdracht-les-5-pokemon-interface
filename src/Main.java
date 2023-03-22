@@ -9,6 +9,9 @@ public class Main {
     public static final String ANSI_BLACK = "\u001B[30m";
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+
+    public static final String ANSI_PURPLE = "\u001B[35m";
 
     // Dit zijn de Pokemons die je tot je beschikking hebt
     private static final FirePokemon charizard = new FirePokemon("Charrizard", 76, 150, "firenougats", "GRRRRRRRRRRRRRRR");
@@ -39,6 +42,4 @@ public class Main {
         }
 
     }
-
-
 }
